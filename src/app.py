@@ -41,9 +41,9 @@ api.init_app(app)
 
 load_dotenv()
 
-conn_str = os.getenv("DB_CONN_STR")
-username = os.getenv("DB_USERNAME")
-password = os.getenv("DB_PASSWORD")
+conn_str = os.getenv("couchbases://cb.3qbsphf8u9nk6u0p.cloud.couchbase.com")
+username = os.getenv("DB_Access")
+password = os.getenv("Srini@123")
 
 if conn_str is None:
     print("DB_CONN_STR environment variable not set")
